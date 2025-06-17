@@ -18,6 +18,8 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Add Binary             | Easy       | Easy        | [AddBinary.cs](Easy/AddBinary.cs) |
 | Sqrt(x)                | Easy       | Easy        | [Sqrt.cs](Easy/Sqrt.cs) |
 | Climbing Stairs        | Easy       | Easy        | [ClimbingStairs.cs](Easy/ClimbingStairs.cs) |
+| Remove Duplicates from Sorted List | Easy | Easy | [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs) |
+
 
 ---
 
@@ -92,3 +94,9 @@ We use binary search to find the integer square root. We avoid overflow by casti
 We solve it using dynamic programming or Fibonacci approach. The number of ways to climb to step `n` equals the sum of ways to step `n-1` and `n-2`.  
 **Time**: O(n), **Space**: O(1)  
 [ClimbingStairs.cs](Easy/ClimbingStairs.cs)
+
+### 83. Remove Duplicates from Sorted List
+We iterate through the sorted list using one pointer. If two consecutive nodes have the same value, we skip the duplicate node by adjusting the next pointer.
+Time: O(n), Space: O(1)  
+[DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs)
+
