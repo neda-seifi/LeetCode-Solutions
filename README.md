@@ -13,6 +13,8 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Remove Duplicates from Sorted Array                | Easy       | Easy        | [RemoveDuplicatesFromSortedArray.cs](Easy/RemoveDuplicatesFromSortedArray.cs) |
 | Remove Duplicates from Sorted Array                | Easy       | Easy        | [RemoveElementFromSortedArray.cs](Easy/RemoveElementFromSortedArray.cs) |
 | Find the Index of the First Occurrence in a String | Easy       | Easy        | [StrStr.cs](Easy/StrStr.cs) |
+| Search Insert Position                             | Easy       | Easy        | [SearchInsert.cs](Easy/SearchInsert.cs) |
+| Length of Last Word                                | Easy       | Easy        | [LengthOfLastWord.cs](Easy/LengthOfLastWord.cs) |
 
 
 
