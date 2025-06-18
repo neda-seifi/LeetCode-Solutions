@@ -20,6 +20,7 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Climbing Stairs        | Easy       | Easy        | [ClimbingStairs.cs](Easy/ClimbingStairs.cs) |
 | Remove Duplicates from Sorted List | Easy | Easy | [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs) |
 | Merge Sorted Array      | Easy       | Easy        | [MergeSortedArray.cs](Easy/MergeSortedArray.cs) |
+| Binary Tree Inorder Traversal | Easy | Easy | [InorderTraversal.cs](Easy/InorderTraversal.cs) |
 
 
 ---
@@ -106,5 +107,16 @@ Time: O(n), Space: O(1)
 We merge two sorted arrays in-place starting from the end to avoid overwriting elements in `nums1`. We use three pointers: one for the end of the valid part of `nums1`, one for the end of `nums2`, and one at the end of `nums1`'s total capacity.
 Time: O(m + n), Space: O(1)  
 [MergeSortedArray.cs](Easy/MergeSortedArray.cs)
+
+
+### 94. Binary Tree Inorder Traversal
+Return the inorder traversal of a binary tree (Left → Root → Right).
+
+- **Recursive**: Uses function call stack.
+  - Time: O(n), Space: O(n)
+- **Iterative**: Uses an explicit stack to simulate recursion.
+  - Time: O(n), Space: O(n)
+
+[BinaryTreeInorderTraversal.cs](Easy/BinaryTreeInorderTraversal.cs)
 
 
