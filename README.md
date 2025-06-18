@@ -19,6 +19,7 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Sqrt(x)                | Easy       | Easy        | [Sqrt.cs](Easy/Sqrt.cs) |
 | Climbing Stairs        | Easy       | Easy        | [ClimbingStairs.cs](Easy/ClimbingStairs.cs) |
 | Remove Duplicates from Sorted List | Easy | Easy | [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs) |
+| Merge Sorted Array      | Easy       | Easy        | [MergeSortedArray.cs](Easy/MergeSortedArray.cs) |
 
 
 ---
@@ -99,4 +100,11 @@ We solve it using dynamic programming or Fibonacci approach. The number of ways 
 We iterate through the sorted list using one pointer. If two consecutive nodes have the same value, we skip the duplicate node by adjusting the next pointer.
 Time: O(n), Space: O(1)  
 [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs)
+
+
+### 88. Merge Sorted Array
+We merge two sorted arrays in-place starting from the end to avoid overwriting elements in `nums1`. We use three pointers: one for the end of the valid part of `nums1`, one for the end of `nums2`, and one at the end of `nums1`'s total capacity.
+Time: O(m + n), Space: O(1)  
+[MergeSortedArray.cs](Easy/MergeSortedArray.cs)
+
 
