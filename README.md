@@ -22,6 +22,7 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Merge Sorted Array     | Easy       | Easy        | [MergeSortedArray.cs](Easy/MergeSortedArray.cs) |
 | Binary Tree Inorder Traversal | Easy | Easy | [InorderTraversal.cs](Easy/InorderTraversal.cs) |
 | Same Tree              | Easy       | Easy        | [SameTree.cs](Easy/SameTree.cs) |
+| Symmetric Tree         | Easy       | Easy        | [SymmetricTree.cs](Easy/SymmetricTree.cs) |
 
 ---
 
@@ -130,6 +131,21 @@ We use recursion:
 
 - Time: O(n), Space: O(n)
 [SameTree.cs](Easy/SameTree.cs)
+
+
+
+### 101. Symmetric Tree
+Checks if a binary tree is a mirror of itself.
+
+**Recursive Approach:**
+- Recursively compare left and right subtrees in mirrored positions.
+
+**Iterative Approach:**
+- Use a queue to compare nodes in pairs from outer to inner levels.
+
+Time: O(n), Space: O(n)  
+[SymmetricTree.cs](Easy/SymmetricTree.cs)
+
 
 
 
