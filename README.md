@@ -18,10 +18,10 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Add Binary             | Easy       | Easy        | [AddBinary.cs](Easy/AddBinary.cs) |
 | Sqrt(x)                | Easy       | Easy        | [Sqrt.cs](Easy/Sqrt.cs) |
 | Climbing Stairs        | Easy       | Easy        | [ClimbingStairs.cs](Easy/ClimbingStairs.cs) |
-| Remove Duplicates from Sorted List | Easy | Easy | [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs) |
-| Merge Sorted Array      | Easy       | Easy        | [MergeSortedArray.cs](Easy/MergeSortedArray.cs) |
+| Remove Duplicates from Sorted List  | Easy | Easy | [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs) |
+| Merge Sorted Array     | Easy       | Easy        | [MergeSortedArray.cs](Easy/MergeSortedArray.cs) |
 | Binary Tree Inorder Traversal | Easy | Easy | [InorderTraversal.cs](Easy/InorderTraversal.cs) |
-
+| Same Tree              | Easy       | Easy        | [SameTree.cs](Easy/SameTree.cs) |
 
 ---
 
@@ -118,5 +118,18 @@ Return the inorder traversal of a binary tree (Left → Root → Right).
   - Time: O(n), Space: O(n)
 
 [BinaryTreeInorderTraversal.cs](Easy/BinaryTreeInorderTraversal.cs)
+
+
+### 100. Same Tree
+Checks whether two binary trees are structurally identical and have the same node values.
+
+We use recursion:
+- If both nodes are null, return true.
+- If only one is null or values don't match, return false.
+- Recursively compare left and right subtrees.
+
+- Time: O(n), Space: O(n)
+[SameTree.cs](Easy/SameTree.cs)
+
 
 
