@@ -182,3 +182,9 @@ At each step, we subtract the node's value from `targetSum` and recurse left and
 If we reach a leaf and the remaining sum is zero, we return true.  
 Time: O(n), Space: O(n)  
 [PathSum.cs](Easy/PathSum.cs)
+
+
+### 118. Pascal's Triangle  
+We build each row iteratively. Every element (except the edges) is the sum of the two elements directly above it.  
+Time: O(numRows²), Space: O(numRows²)  
+[PascalsTriangle.cs](Easy/PascalsTriangle.cs)
