@@ -20,9 +20,10 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Climbing Stairs        | Easy       | Easy        | [ClimbingStairs.cs](Easy/ClimbingStairs.cs) |
 | Remove Duplicates from Sorted List  | Easy | Easy | [DeleteDuplicatesFromSortedList.cs](Easy/DeleteDuplicatesFromSortedList.cs) |
 | Merge Sorted Array     | Easy       | Easy        | [MergeSortedArray.cs](Easy/MergeSortedArray.cs) |
-| Binary Tree Inorder Traversal | Easy | Easy | [InorderTraversal.cs](Easy/InorderTraversal.cs) |
+| Binary Tree Inorder Traversal | Easy | Easy |  [InorderTraversal.cs](Easy/InorderTraversal.cs) |
 | Same Tree              | Easy       | Easy        | [SameTree.cs](Easy/SameTree.cs) |
 | Symmetric Tree         | Easy       | Easy        | [SymmetricTree.cs](Easy/SymmetricTree.cs) |
+| Maximum Depth of Binary Tree        | Easy        | Easy   | [MaxDepthBinaryTree.cs](Easy/MaxDepthBinaryTree.cs) |
 
 ---
 
@@ -145,6 +146,18 @@ Checks if a binary tree is a mirror of itself.
 
 Time: O(n), Space: O(n)  
 [SymmetricTree.cs](Easy/SymmetricTree.cs)
+
+### 104. Maximum Depth of Binary Tree
+We solve this in two ways:
+
+- **Recursive:** Use DFS (Depth First Search) to explore left and right children. The maximum depth is `1 + max(left, right)`.
+- **Iterative:** Use BFS (Breadth First Search) with a queue to count levels.
+
+**Time Complexity:** O(n)  
+**Space Complexity:** O(h) for recursion, O(n) for BFS  
+[MaxDepthBinaryTree.cs](Easy/MaxDepthBinaryTree.cs)
+
+---
 
 
 
