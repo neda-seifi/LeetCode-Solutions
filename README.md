@@ -26,6 +26,7 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Maximum Depth of Binary Tree        | Easy        | Easy   | [MaxDepthBinaryTree.cs](Easy/MaxDepthBinaryTree.cs) |
 | Convert Sorted Array to Binary Search Tree       | Easy       | Easy   | [SortedArrayToBST.cs](Easy/SortedArrayToBST.cs) |
 | Balanced Binary Tree         | Easy       | Easy        | [BalancedBinaryTree.cs](Easy/BalancedBinaryTree.cs) |
+| Minimum Depth of Binary Tree | Easy | Easy | [MinimumDepth.cs](Easy/MinimumDepth.cs) |
 
 ---
 
@@ -169,4 +170,8 @@ We use DFS recursion to get the height of each subtree. If the height difference
 Time: O(n), Space: O(n)
 [BalancedBinaryTree.cs](Easy/BalancedBinaryTree.cs)
 
+### 111. Minimum Depth of Binary Tree
+We use DFS recursion to find the shortest path from root to any leaf node. If one subtree is null, we take the depth of the other.
+Time: O(n), Space: O(n)
+[MinimumDepth.cs](Easy/MinimumDepth.cs)
 
