@@ -24,6 +24,8 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Same Tree              | Easy       | Easy        | [SameTree.cs](Easy/SameTree.cs) |
 | Symmetric Tree         | Easy       | Easy        | [SymmetricTree.cs](Easy/SymmetricTree.cs) |
 | Maximum Depth of Binary Tree        | Easy        | Easy   | [MaxDepthBinaryTree.cs](Easy/MaxDepthBinaryTree.cs) |
+| Convert Sorted Array to Binary Search Tree       | Easy       | Easy   | [SortedArrayToBST.cs](Easy/SortedArrayToBST.cs) |
+| Balanced Binary Tree         | Easy       | Easy        | [BalancedBinaryTree.cs](Easy/BalancedBinaryTree.cs) |
 
 ---
 
@@ -157,8 +159,14 @@ We solve this in two ways:
 **Space Complexity:** O(h) for recursion, O(n) for BFS  
 [MaxDepthBinaryTree.cs](Easy/MaxDepthBinaryTree.cs)
 
----
+### 108. Convert Sorted Array to Binary Search Tree
+We use a recursive divide-and-conquer approach. At each step, we take the middle element of the current subarray as the root node and recursively construct left and right subtrees from the remaining halves. This ensures the tree is height-balanced.
+- Time: O(n), Space: O(log n)
+[SortedArrayToBST.cs](Easy/SortedArrayToBST.cs)
 
-
+### 110. Balanced Binary Tree
+We use DFS recursion to get the height of each subtree. If the height difference exceeds 1, we return -1 and bubble up the failure.
+Time: O(n), Space: O(n)
+[BalancedBinaryTree.cs](Easy/BalancedBinaryTree.cs)
 
 
