@@ -27,6 +27,7 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Convert Sorted Array to Binary Search Tree       | Easy       | Easy   | [SortedArrayToBST.cs](Easy/SortedArrayToBST.cs) |
 | Balanced Binary Tree         | Easy       | Easy        | [BalancedBinaryTree.cs](Easy/BalancedBinaryTree.cs) |
 | Minimum Depth of Binary Tree | Easy | Easy | [MinimumDepth.cs](Easy/MinimumDepth.cs) |
+| Path Sum               | Easy       | Easy        | [PathSum.cs](Easy/PathSum.cs) |
 
 ---
 
@@ -175,3 +176,9 @@ We use DFS recursion to find the shortest path from root to any leaf node. If on
 Time: O(n), Space: O(n)
 [MinimumDepth.cs](Easy/MinimumDepth.cs)
 
+### 112. Path Sum  
+We use recursion to check whether a root-to-leaf path exists where the sum of the node values equals the target.  
+At each step, we subtract the node's value from `targetSum` and recurse left and right.  
+If we reach a leaf and the remaining sum is zero, we return true.  
+Time: O(n), Space: O(n)  
+[PathSum.cs](Easy/PathSum.cs)
