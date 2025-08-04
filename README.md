@@ -28,7 +28,10 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Balanced Binary Tree         | Easy       | Easy        | [BalancedBinaryTree.cs](Easy/BalancedBinaryTree.cs) |
 | Minimum Depth of Binary Tree | Easy | Easy | [MinimumDepth.cs](Easy/MinimumDepth.cs) |
 | Path Sum               | Easy       | Easy        | [PathSum.cs](Easy/PathSum.cs) |
-
+| Pascal's Triangle                 | Easy       | Easy        | [PascalsTriangle.cs](Easy/PascalsTriangle.cs) |
+| Pascal's Triangle II              | Easy       | Easy        | [PascalsTriangleII.cs](Easy/PascalsTriangleII.cs) |
+| Best Time to Buy and Sell Stock              | Easy       | Easy        | [PathSum.cs](Easy/PathSum.cs) |
+ 
 ---
 
 ## Explanation Notes
@@ -194,3 +197,9 @@ Time: O(numRows²), Space: O(numRows²)
 We build only one row at a time using a single list. From each previous row, we update the list in reverse to compute the next row. This saves space.  
 Time: O(n²), Space: O(n)  
 [PascalsTriangleII.cs](Easy/PascalsTriangleII.cs)
+
+
+### 121. Best Time to Buy and Sell Stock  
+We track the minimum price as we iterate and calculate profit at each step. This one-pass solution keeps updating the max profit seen so far.  
+Time: O(n), Space: O(1)  
+[BestTimeToBuyAndSellStock.cs](Easy/BestTimeToBuyAndSellStock.cs)
