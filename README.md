@@ -203,3 +203,8 @@ Time: O(n²), Space: O(n)
 We track the minimum price as we iterate and calculate profit at each step. This one-pass solution keeps updating the max profit seen so far.  
 Time: O(n), Space: O(1)  
 [BestTimeToBuyAndSellStock.cs](Easy/BestTimeToBuyAndSellStock.cs)
+
+### 125. Valid Palindrome  
+We use a two-pointer approach, skipping non-alphanumeric characters and comparing characters case-insensitively. Efficient and clean.  
+Time: O(n), Space: O(1)  
+[ValidPalindrome.cs](Easy/ValidPalindrome.cs)
