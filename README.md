@@ -188,3 +188,9 @@ Time: O(n), Space: O(n)
 We build each row iteratively. Every element (except the edges) is the sum of the two elements directly above it.  
 Time: O(numRows²), Space: O(numRows²)  
 [PascalsTriangle.cs](Easy/PascalsTriangle.cs)
+
+
+### 119. Pascal's Triangle II  
+We build only one row at a time using a single list. From each previous row, we update the list in reverse to compute the next row. This saves space.  
+Time: O(n²), Space: O(n)  
+[PascalsTriangleII.cs](Easy/PascalsTriangleII.cs)
