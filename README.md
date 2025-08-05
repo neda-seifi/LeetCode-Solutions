@@ -30,8 +30,10 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Path Sum               | Easy       | Easy        | [PathSum.cs](Easy/PathSum.cs) |
 | Pascal's Triangle                 | Easy       | Easy        | [PascalsTriangle.cs](Easy/PascalsTriangle.cs) |
 | Pascal's Triangle II              | Easy       | Easy        | [PascalsTriangleII.cs](Easy/PascalsTriangleII.cs) |
-| Best Time to Buy and Sell Stock              | Easy       | Easy        | [PathSum.cs](Easy/PathSum.cs) |
- 
+| Best Time to Buy and Sell Stock              | Easy       | Easy        | [PathSum.cs](Easy/BestTimeToBuyAndSellStock.cs) |
+| Valid Palindrome              | Easy       | Easy        | [PathSum.cs](Easy/ValidPalindrome.cs) |
+| Single Number                               | Easy       | Bit Manipulation | [SingleNumber.cs](Easy/SingleNumber.cs) |
+
 ---
 
 ## Explanation Notes
@@ -208,3 +210,10 @@ Time: O(n), Space: O(1)
 We use a two-pointer approach, skipping non-alphanumeric characters and comparing characters case-insensitively. Efficient and clean.  
 Time: O(n), Space: O(1)  
 [ValidPalindrome.cs](Easy/ValidPalindrome.cs)
+
+### 136. Single Number
+We use the XOR bitwise operator to cancel out duplicate numbers. Since a ^ a = 0 and a ^ 0 = a, XORing all elements gives the unique number.
+Time: O(n), Space: O(1)
+[SingleNumber.cs](Easy/SingleNumber.cs)
+
+
