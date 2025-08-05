@@ -33,6 +33,9 @@ This repository contains my solutions to LeetCode problems, categorized by diffi
 | Best Time to Buy and Sell Stock              | Easy       | Easy        | [PathSum.cs](Easy/BestTimeToBuyAndSellStock.cs) |
 | Valid Palindrome              | Easy       | Easy        | [PathSum.cs](Easy/ValidPalindrome.cs) |
 | Single Number                               | Easy       | Bit Manipulation | [SingleNumber.cs](Easy/SingleNumber.cs) |
+| Linked List Cycle                         | Easy       | Two Pointers       | [LinkedListCycle.cs](Easy/LinkedListCycle.cs) |
+| Binary Tree Preorder Traversal           | Easy       | Tree, Stack       | [BinaryTreePreorderTraversal.cs](Easy/BinaryTreePreorderTraversal.cs) |
+
 
 ---
 
@@ -215,5 +218,22 @@ Time: O(n), Space: O(1)
 We use the XOR bitwise operator to cancel out duplicate numbers. Since a ^ a = 0 and a ^ 0 = a, XORing all elements gives the unique number.
 Time: O(n), Space: O(1)
 [SingleNumber.cs](Easy/SingleNumber.cs)
+
+
+### 141. Linked List Cycle
+We use two pointers: slow moves 1 step, fast moves 2 steps. If there's a cycle, they will eventually meet. If fast or fast.next is null, the list has no cycle.  
+Time: O(n), Space: O(1)  
+[LinkedListCycle.cs](Easy/LinkedListCycle.cs)
+
+### 144. Binary Tree Preorder Traversal
+Return preorder traversal of nodes' values (root, left, right).
+
+- Recursive: Visit root, then left subtree, then right subtree.  
+- Iterative: Use a stack, push right child first, then left child to process left first.  
+
+Time: O(n), Space: O(n)  
+[BinaryTreePreorderTraversal.cs](Easy/BinaryTreePreorderTraversal.cs)
+
+
 
 
